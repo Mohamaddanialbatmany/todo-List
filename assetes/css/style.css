@@ -1,0 +1,79 @@
+body{
+	font-family: Indie Flower;
+	background: #0B486B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	font-size: 1.7rem;
+	line-height: 40px;
+	height: 40px;
+	margin: 0px 15px;
+	padding: 5px 0px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: rgba(130, 255, 152, .6);	
+}
+
+.fa-pen-nib{
+	float: right;
+	margin: 5px 10px;
+	color: #d5d5d5;
+}
+
+input{
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	padding: 0 15px;
+	font-size: 1.3rem;
+	box-sizing: border-box;
+	background: rgba(163, 230, 255, 0.1);
+	border: 5px solid rgba(0, 0, 0, 0);
+	color: #0B486B;
+}
+
+ul{
+	list-style: none;
+	margin: 10px 0px;
+	padding: 0;
+	font-size: 21px;
+	font-weight: 400;
+	color: #0B486B;
+}
+
+li{
+	padding: 0px 10px 5px 5px;
+}
+
+span{
+	margin: 0;
+	padding: 5px;
+	display: inline;
+	opacity: 0;
+	transition: all .5s;
+}
+li:hover span{
+	opacity: 1;
+}
+
+#container{
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1);
+	width: 300px;
+	margin: 30px auto;
+	background: #2196f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.checked{
+	color: rgba(58, 58, 58, .9);
+	text-decoration: line-through;
+}
+
+.deleteActive{
+	display: inline-block;
+	opacity: 1;
+}
